@@ -1,0 +1,37 @@
+1. Story - User Login 
+Tasks -
+- Create a User Table (10 mins)
+- Create an API service to add and modify (include soft deletion) (Time?)
+- Build UI for login (Time?)
+2. Story - Authorization
+Tasks -
+1) build a class extract user type and check where he have access to do the requested action. If no return message access denaid.
+ 2) In UI based on token display the particular component.3. Story - Building a homepage
+Tasks -
+3. Story - Author Homepage(Without payment)
+Tasks -
+1) Display all the books added by that particular Author.
+2) Need to provide Add Book with all the required fields.
+3) Need to provide Edit book to that book author.
+4) Author can able to Acitive/Inactive the book (provide Toggle).
+4. Story - Reader Homepage
+Tasks -
+Task 1. Create api service to display the books purchased by the reader
+Task 2. Create api service to display the books available
+Task 3. Option to buy the book 
+Task 4. Create UI for Reader Home Page
+Task 5. Create api service to read the book purchased by the user
+5. Story - Display purchased Book/receipt
+Tasks - 
+Task 1. Create api service to display the receipt
+Task 2. Create UI to display the receipt
+6. Story - Payment Gateway
+Tasks - 
+create one interface
+--post method
+--payment can be taken as a guest user only--(Provide EmailId and purchase the book)
+--Book got purchased-- A Unique PaymentId will get generated
+--Details should be updated in database(based on EmailId)
+--get Method:To show all the purchased book payment details based on EmailId
+
+8. Story - 
